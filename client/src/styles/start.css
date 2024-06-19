@@ -5,16 +5,17 @@ body, html {
   width: 100%;
   font-family: 'Comic Sans MS', sans-serif;
   overflow: hidden;
-  background-image: url('../assets/start/start.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  
 }
 
 .start{
   height: 100vh;
   width: 100vw;
   text-align: center;
+  background-image: url('../assets/start/start.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .startPage {
