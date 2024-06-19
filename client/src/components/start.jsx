@@ -1,5 +1,5 @@
 import React from 'react'
-import './start.css'
+import '../styles/start.css'
 import gameLogo from '../assets/start/logo.png';
 
 
