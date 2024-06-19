@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import '../styles/start.css'
 import gameLogo from '../assets/start/logo.png';
 
@@ -9,11 +10,13 @@ function Start() {
       <img src={gameLogo} alt='logo' className='game-logo' />
       <div className="startPage">
         <h1 className="start-text">BABY DRIVER</h1>
-        <button className="start-button">Start Game</button>
+        <Link to="/countdown" className='start-game'>
+          <button className="start-button">Start Game</button>
+        </Link>
       </div>
       
     </div>
   )
 }
 
-export default Start
+export default Start;
