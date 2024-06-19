@@ -1,5 +1,7 @@
 /* src/AnimatedText.css */
 
+/* AnimatedText.css */
+
 .text span {
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -25,7 +27,7 @@
   }
   
   .text {
-    font-size: 6vw;
+    font-size: 4vw;
     word-spacing: 0.2em;
     margin: 0 auto;
     background: #fff;
@@ -33,6 +35,8 @@
     border-bottom: 1vw solid #0e6dad;
     position: relative;
     line-height: 1.2em;
+    max-width: 90%;
+    text-align: center;
   }
   
   .corner {

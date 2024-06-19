@@ -1,10 +1,37 @@
-.text {
-    font-size: 4rem;
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 300px;
-  }
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Comic Sans MS', sans-serif;
+  overflow: hidden;
+  background-image: url('../assets/start/start.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.levelPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.level-text {
+  font-size: 3.5rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+
