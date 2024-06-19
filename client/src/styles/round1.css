@@ -1,10 +1,58 @@
-.text1{
-    font-size: 3.5rem;
-    color: white;
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Comic Sans MS', sans-serif;
+    overflow: hidden;
+    
+  }
+  
+  .level{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-image: url('../assets/level/start-back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .game-logo {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    width: 350px; 
+    height: auto;
+  }
+  .levelPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  .back-img {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    width: 350px; 
+    height: auto;
+  }
+  
+  .level-text {
+    font-size: 5rem;
+    color: rgb(25, 50, 54);
     text-shadow: 2px 2px 4px #000000;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 300px;
-}
+    font-family: 'Comic Sans MS', sans-serif;
+  }
+  

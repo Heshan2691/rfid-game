@@ -1,10 +1,18 @@
 import React from 'react'
-import round1 from '../styles/round1.css'
+import '../styles/round1.css'
+import Backimg from '../assets/level/back.png';
+
+
 
 function Round1() {
   return (
-    <div>
-        <h1 className='text1'> Round 01 </h1>
+    <div className='level'>
+      <img src={Backimg} alt='back' className='back-img' />
+      <div className="levelPage">
+        <h1 className="level-text">Round 01</h1>
+        
+      </div>
+      
     </div>
   )
 }
