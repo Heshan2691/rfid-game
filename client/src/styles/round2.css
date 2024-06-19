@@ -1,0 +1,9 @@
+.round2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: #333;
+    background-image: url('../assets/start/start-back.jpg');
+}
