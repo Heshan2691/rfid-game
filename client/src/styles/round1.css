@@ -1,0 +1,10 @@
+.text1{
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+}
