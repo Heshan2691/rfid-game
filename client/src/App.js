@@ -1,11 +1,12 @@
 import './App.css';
 
 import Level1 from './components/Level1';
+import Countdown from './components/Countdown';
 
 function App() {
   return (
     <div className="App">
-        <Level1 />
+        <Countdown />
     </div>
   );
 }

@@ -7,17 +7,17 @@ const Countdown = () => {
     let grid = [];
 
     useEffect(() => {
-        if (second < -1) {
+        if (second < 1) {
             return;
         }
 
         const timer1 = setTimeout(() => {
             setSecond( second - 1);
-        }, 2000);
+        }, 1200);
 
         const timer2 = setTimeout(() => {
             setRepaintClass(`repaint`);
-        }, 1500);
+        }, 1200);
 
         return () => {
             clearTimeout(timer1);
@@ -33,10 +33,10 @@ const Countdown = () => {
         }
     }
 
-    if (second <= -1) {
+    if (second <= 0) {
         return (
             <div>
-                <h1>Hello my app</h1>
+                <h1><div className='text-go'>GO!</div></h1>
                 <button onClick={() => setSecond(3)}>Start over</button>
             </div>
 

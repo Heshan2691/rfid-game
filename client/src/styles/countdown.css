@@ -1562,30 +1562,39 @@ body {
 
 .number-3 .x7-y3, .number-3 .x8-y3, .number-3 .x9-y3, .number-3 .x8-y5, .number-3 .x9-y4,
 .number-3 .x9-y5, .number-3 .x9-y6, .number-3 .x9-y7, .number-3 .x7-y7, .number-3 .x8-y7 {
-    box-shadow: 0 0 120px 0px rgba(237, 159, 22, 0.7);
+    box-shadow: 0 0 120px 0px #d81be9;
     transform: rotateY(180deg);
-    background: #e6ae46;
+    background: #d81be9;
 }
 
 .number-2 .x7-y3, .number-2 .x8-y3, .number-2 .x9-y3, .number-2 .x8-y5, .number-2 .x9-y4,
 .number-2 .x9-y5, .number-2 .x7-y6, .number-2 .x7-y5, .number-2 .x7-y7, .number-2 .x8-y7,
 .number-2 .x9-y7 {
-    box-shadow: 0 0 120px 0px rgba(237, 159, 22, 0.7);
+    box-shadow: 0 0 120px 0px #d81be9;
     transform: rotateY(180deg);
-    background: #e6ae46;
+    background: #d81be9;
 }
 
 .number-1 .x7-y3, .number-1 .x8-y3, .number-1 .x8-y4, .number-1 .x8-y5,
 .number-1 .x8-y6, .number-1 .x8-y7 {
-    box-shadow: 0 0 120px 0px rgba(237, 159, 22, 0.7);
+    box-shadow: 0 0 120px 0px #d81be9;
     transform: rotateY(180deg);
-    background: #e6ae46;
+    background: #d81be9;
 }
 
 .number-0 .x7-y3, .number-0 .x8-y3, .number-0 .x9-y3, .number-0 .x7-y4,
 .number-0 .x7-y5, .number-0 .x7-y6, .number-0 .x7-y7, .number-0 .x9-y4,
 .number-0 .x9-y5, .number-0 .x9-y6, .number-0 .x9-y7, .number-0 .x8-y7 {
-    box-shadow: 0 0 120px 0px rgba(237, 159, 22, 0.7);
+    box-shadow: 0 0 120px 0px #d81be9;
     transform: rotateY(180deg);
-    background: #e6ae46;
+    background: #d81be9;
+}
+
+.text-go {
+    color: #fff;
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
 }
